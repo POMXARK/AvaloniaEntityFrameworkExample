@@ -29,4 +29,9 @@
 	<PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="7.0.0" />
 	<PackageReference Include="XamlNameReferenceGenerator" Version="1.3.4" />
   </ItemGroup>
+  <ItemGroup>
+    <Compile Update="Views\PersonView.axaml.cs">
+      <DependentUpon>PersonView.axaml</DependentUpon>
+    </Compile>
+  </ItemGroup>
 </Project>

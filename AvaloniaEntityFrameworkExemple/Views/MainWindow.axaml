@@ -9,14 +9,13 @@
         Title="AvaloniaEntityFrameworkExemple"
         Height="450" Width="800"
         >
+  <TabControl>
+    <TabItem  Header="EntityDocsExemple">
 
-  <Grid>
-    <DataGrid Name="MyDataGrid" Items="{Binding People}" AutoGenerateColumns="False" >
-      <DataGrid.Columns>
-        <DataGridTextColumn Header="Forename"  Binding="{Binding FirstName}"/>
-        <DataGridTextColumn Header="Surname" Binding="{Binding LastName}" />
-      </DataGrid.Columns>
-    </DataGrid>
-  </Grid>
+    </TabItem>
+    <TabItem  Header="Person">
+      <vm:PersonViewModel/>
+    </TabItem>
+  </TabControl>
 
 </Window>
