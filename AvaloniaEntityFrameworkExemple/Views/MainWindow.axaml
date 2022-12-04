@@ -11,7 +11,7 @@
         >
   <TabControl>
     <TabItem  Header="EntityDocsExemple">
-
+      <vm:ProductViewModel/>
     </TabItem>
     <TabItem  Header="Person">
       <vm:PersonViewModel/>
